@@ -1,0 +1,36 @@
+header > nav {
+    float: right;
+}
+
+body {
+    background:url("more-leaves-on-green.png");
+  }
+
+img {
+    float: left; 
+    resize
+
+        width:100px;
+        height:200px;
+}
+
+article {
+    float: left;
+    max-width: 800px;
+    margin: 24px auto;
+ }
+
+ aside {
+    float: right;
+    max-width: 700px;
+}
+
+main::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+footer {
+    text-align: center;
+}
